@@ -1,0 +1,450 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Freedom Path | ITR Filing 2025-26</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+  --green:#0d8f5c;
+  --green-dark:#076b44;
+  --navy:#0d2137;
+  --white:#ffffff;
+  --muted:#657786;
+  --wa:#25d366;
+  --bg:#f5f9f7;
+  --shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Nunito',sans-serif;
+  background:var(--bg);
+  color:#1a2e3b;
+}
+
+header{
+  position:sticky;
+  top:0;
+  background:white;
+  padding:14px 24px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  box-shadow:0 2px 15px rgba(0,0,0,0.06);
+  z-index:999;
+}
+
+.logo{
+  font-family:'Syne',sans-serif;
+  font-weight:800;
+  color:var(--navy);
+  font-size:1.2rem;
+}
+
+.logo span{
+  color:var(--green);
+}
+
+.header-btn{
+  background:var(--wa);
+  color:white;
+  text-decoration:none;
+  padding:12px 22px;
+  border-radius:50px;
+  font-weight:800;
+}
+
+.hero{
+  background:linear-gradient(135deg,#0d2137,#0b3f28);
+  color:white;
+  text-align:center;
+  padding:100px 20px;
+}
+
+.hero h1{
+  font-family:'Syne',sans-serif;
+  font-size:clamp(2rem,6vw,4rem);
+  line-height:1.2;
+  margin-bottom:20px;
+}
+
+.hero h1 span{
+  color:#ffb100;
+}
+
+.hero p{
+  max-width:700px;
+  margin:auto;
+  line-height:1.8;
+  opacity:.9;
+  font-size:1.05rem;
+}
+
+.hero-btns{
+  margin-top:35px;
+  display:flex;
+  justify-content:center;
+  gap:18px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  padding:16px 30px;
+  border-radius:50px;
+  text-decoration:none;
+  font-weight:800;
+}
+
+.btn-wa{
+  background:var(--wa);
+  color:white;
+}
+
+.btn-outline{
+  border:2px solid rgba(255,255,255,.4);
+  color:white;
+}
+
+.section{
+  padding:80px 20px;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+}
+
+.section-title{
+  font-family:'Syne',sans-serif;
+  font-size:2.5rem;
+  margin-bottom:16px;
+  text-align:center;
+}
+
+.section-title span{
+  color:var(--green);
+}
+
+.section-desc{
+  text-align:center;
+  max-width:700px;
+  margin:auto;
+  color:var(--muted);
+  line-height:1.8;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:24px;
+  margin-top:40px;
+}
+
+.card{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:var(--shadow);
+  transition:.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.card h3{
+  margin-bottom:12px;
+  color:var(--navy);
+}
+
+.card p{
+  color:var(--muted);
+  line-height:1.7;
+}
+
+.form-section{
+  background:linear-gradient(135deg,var(--green),var(--green-dark));
+  color:white;
+}
+
+.form-card{
+  background:white;
+  color:#1a2e3b;
+  max-width:500px;
+  margin:40px auto 0;
+  padding:35px;
+  border-radius:24px;
+}
+
+.form-group{
+  margin-bottom:18px;
+}
+
+.form-group label{
+  display:block;
+  margin-bottom:8px;
+  font-weight:700;
+}
+
+.form-group input,
+.form-group select{
+  width:100%;
+  padding:14px;
+  border:2px solid #dce8e1;
+  border-radius:12px;
+  font-size:1rem;
+}
+
+.submit-btn{
+  width:100%;
+  border:none;
+  background:var(--green);
+  color:white;
+  padding:16px;
+  border-radius:50px;
+  font-size:1rem;
+  font-weight:800;
+  cursor:pointer;
+}
+
+footer{
+  background:#071521;
+  color:rgba(255,255,255,.7);
+  text-align:center;
+  padding:50px 20px;
+}
+
+.float-wa{
+  position:fixed;
+  right:24px;
+  bottom:24px;
+  width:64px;
+  height:64px;
+  border-radius:50%;
+  background:var(--wa);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  color:white;
+  font-size:28px;
+  box-shadow:0 10px 30px rgba(37,211,102,.5);
+}
+
+@media(max-width:768px){
+
+  .hero{
+    padding:70px 20px;
+  }
+
+  .section-title{
+    font-size:2rem;
+  }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+  Freedom <span>Path</span>
+</div>
+
+<a 
+href="https://wa.me/917999618394?text=Hi%20I%20want%20to%20file%20my%20ITR"
+target="_blank"
+class="header-btn">
+WhatsApp
+</a>
+
+</header>
+
+<section class="hero">
+
+<h1>
+File Your <span>Income Tax Return</span><br>
+With Expert CA Support
+</h1>
+
+<p>
+Same-day ITR filing with WhatsApp support, lowest pricing and CA-assisted consultation for salaried employees, freelancers, business owners and NRIs.
+</p>
+
+<div class="hero-btns">
+
+<a
+href="https://wa.me/917999618394?text=Hi%20I%20want%20to%20file%20my%20ITR"
+target="_blank"
+class="btn btn-wa">
+Chat on WhatsApp
+</a>
+
+<a href="#form" class="btn btn-outline">
+Get Free Consultation
+</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">
+Why Choose <span>Freedom Path</span>
+</h2>
+
+<p class="section-desc">
+Professional CA-assisted filing with fast support, accurate tax filing and hassle-free process.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>⚡ Same-Day Filing</h3>
+<p>Get your ITR filed quickly with expert assistance and faster processing.</p>
+</div>
+
+<div class="card">
+<h3>👨‍💼 CA Expert Support</h3>
+<p>Professional review by tax experts to maximize refund and avoid errors.</p>
+</div>
+
+<div class="card">
+<h3>💬 WhatsApp Assistance</h3>
+<p>Easy communication and document sharing directly through WhatsApp.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section form-section" id="form">
+
+<div class="container">
+
+<h2 class="section-title">
+Get Free <span>Consultation</span>
+</h2>
+
+<div class="form-card">
+
+<div class="form-group">
+<label>Full Name</label>
+<input type="text" id="name" placeholder="Enter your name">
+</div>
+
+<div class="form-group">
+<label>WhatsApp Number</label>
+<input type="tel" id="phone" placeholder="9876543210">
+</div>
+
+<div class="form-group">
+<label>I am a...</label>
+
+<select id="profile">
+<option value="">Select</option>
+<option>Salaried Employee</option>
+<option>Freelancer</option>
+<option>Business Owner</option>
+<option>NRI</option>
+</select>
+
+</div>
+
+<button class="submit-btn" onclick="submitForm()">
+Submit & Continue
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Freedom Path Financial Services Pvt. Ltd.</h2>
+
+<p style="margin-top:12px;">
+GST Registered Financial Services Company
+</p>
+
+<p style="margin-top:18px;">
+📞 +91 79961 83941
+</p>
+
+</footer>
+
+<a
+href="https://wa.me/917996183941?text=Hi%20I%20want%20to%20file%20my%20ITR"
+target="_blank"
+class="float-wa">
+💬
+</a>
+
+<script>
+
+function submitForm(){
+
+  const name = document.getElementById('name').value.trim();
+  const phone = document.getElementById('phone').value.trim();
+  const profile = document.getElementById('profile').value;
+
+  if(name === ''){
+    alert('Please enter your name');
+    return;
+  }
+
+  if(phone.length !== 10 || isNaN(phone)){
+    alert('Please enter valid 10 digit number');
+    return;
+  }
+
+  if(profile === ''){
+    alert('Please select your profile');
+    return;
+  }
+
+  const message = encodeURIComponent(
+`Hi Freedom Path!
+
+Name: ${name}
+Phone: ${phone}
+Profile: ${profile}
+
+I want to file my ITR.`
+);
+
+  window.open(
+    `https://wa.me/917996183941?text=${message}`,
+    '_blank'
+  );
+
+}
+
+</script>
+
+</body>
+</html>
+
