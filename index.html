@@ -1,449 +1,1760 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="File ITR Online - Fast CA-verified filing for salaried, business, freelancers & NRIs. Same-day processing, ₹0 hidden charges, WhatsApp support. Free consultation.">
+    <meta name="theme-color" content="#003d82">
+    <title>File ITR Online - Fast CA Filing | Freedom Path | WhatsApp Support</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://wa.me">
+    
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': false });
+        gtag('config', 'AW-XXXXXXXXXX');
+    </script>
 
-<title>Freedom Path | ITR Filing 2025-26</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-XXXXXXXXXX');</script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #003d82;
+            --primary-light: #0052a3;
+            --primary-dark: #001f47;
+            --accent: #10b981;
+            --accent-light: #4ade80;
+            --accent-hover: #059669;
+            --success: #22c55e;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --text-muted: #9ca3af;
+            --bg-light: #f9fafb;
+            --bg-lighter: #f3f4f6;
+            --border: #e5e7eb;
+            --white: #ffffff;
+        }
 
-<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-:root{
-  --green:#0d8f5c;
-  --green-dark:#076b44;
-  --navy:#0d2137;
-  --white:#ffffff;
-  --muted:#657786;
-  --wa:#25d366;
-  --bg:#f5f9f7;
-  --shadow:0 10px 30px rgba(0,0,0,0.08);
-}
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
 
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: var(--text-dark);
+            background: var(--white);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
 
-body{
-  font-family:'Nunito',sans-serif;
-  background:var(--bg);
-  color:#1a2e3b;
-}
+        /* ===== RESET & UTILITIES ===== */
+        button, a {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
 
-header{
-  position:sticky;
-  top:0;
-  background:white;
-  padding:14px 24px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  box-shadow:0 2px 15px rgba(0,0,0,0.06);
-  z-index:999;
-}
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
 
-.logo{
-  font-family:'Syne',sans-serif;
-  font-weight:800;
-  color:var(--navy);
-  font-size:1.2rem;
-}
+        /* ===== HEADER ===== */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: var(--white);
+            border-bottom: 1px solid var(--border);
+            padding: 0.75rem 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
 
-.logo span{
-  color:var(--green);
-}
+        .header-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.5rem;
+        }
 
-.header-btn{
-  background:var(--wa);
-  color:white;
-  text-decoration:none;
-  padding:12px 22px;
-  border-radius:50px;
-  font-weight:800;
-}
+        .logo-link {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            text-decoration: none;
+            flex-shrink: 0;
+        }
 
-.hero{
-  background:linear-gradient(135deg,#0d2137,#0b3f28);
-  color:white;
-  text-align:center;
-  padding:100px 20px;
-}
+        .logo-icon {
+            width: 42px;
+            height: 42px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 900;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 8px rgba(0, 61, 130, 0.2);
+        }
 
-.hero h1{
-  font-family:'Syne',sans-serif;
-  font-size:clamp(2rem,6vw,4rem);
-  line-height:1.2;
-  margin-bottom:20px;
-}
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
 
-.hero h1 span{
-  color:#ffb100;
-}
+        .logo-name {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: -0.5px;
+        }
 
-.hero p{
-  max-width:700px;
-  margin:auto;
-  line-height:1.8;
-  opacity:.9;
-  font-size:1.05rem;
-}
+        .logo-tag {
+            font-size: 0.65rem;
+            color: var(--text-light);
+            font-weight: 500;
+            letter-spacing: 0.3px;
+        }
 
-.hero-btns{
-  margin-top:35px;
-  display:flex;
-  justify-content:center;
-  gap:18px;
-  flex-wrap:wrap;
-}
+        .header-actions {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
 
-.btn{
-  padding:16px 30px;
-  border-radius:50px;
-  text-decoration:none;
-  font-weight:800;
-}
+        .header-phone {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            transition: all 0.3s;
+        }
 
-.btn-wa{
-  background:var(--wa);
-  color:white;
-}
+        .header-phone:hover {
+            background: var(--bg-light);
+            color: var(--primary);
+        }
 
-.btn-outline{
-  border:2px solid rgba(255,255,255,.4);
-  color:white;
-}
+        .btn-cta-header {
+            background: var(--accent);
+            color: var(--text-dark);
+            border: none;
+            padding: 0.6rem 1.4rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            cursor: pointer;
+            white-space: nowrap;
+            box-shadow: 0 2px 8px rgba(16, 185, 129, 0.2);
+        }
 
-.section{
-  padding:80px 20px;
-}
+        .btn-cta-header:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+        }
 
-.container{
-  max-width:1100px;
-  margin:auto;
-}
+        @media (max-width: 768px) {
+            .header-phone {
+                display: none;
+            }
 
-.section-title{
-  font-family:'Syne',sans-serif;
-  font-size:2.5rem;
-  margin-bottom:16px;
-  text-align:center;
-}
+            .header-wrapper {
+                padding: 0 1rem;
+                gap: 0.8rem;
+            }
 
-.section-title span{
-  color:var(--green);
-}
+            .btn-cta-header {
+                padding: 0.5rem 1rem;
+                font-size: 0.8rem;
+            }
+        }
 
-.section-desc{
-  text-align:center;
-  max-width:700px;
-  margin:auto;
-  color:var(--muted);
-  line-height:1.8;
-}
+        /* ===== HERO SECTION ===== */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: var(--white);
+            padding: 2.5rem 1.5rem;
+            position: relative;
+            overflow: hidden;
+        }
 
-.cards{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:24px;
-  margin-top:40px;
-}
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -40%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
 
-.card{
-  background:white;
-  padding:30px;
-  border-radius:20px;
-  box-shadow:var(--shadow);
-  transition:.3s;
-}
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -15%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
 
-.card:hover{
-  transform:translateY(-5px);
-}
+        .hero-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
 
-.card h3{
-  margin-bottom:12px;
-  color:var(--navy);
-}
+        .urgency-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.15);
+            color: var(--white);
+            padding: 0.55rem 1.2rem;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.75rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            letter-spacing: 0.5px;
+            animation: pulse-badge 2s ease-in-out infinite;
+            text-transform: uppercase;
+        }
 
-.card p{
-  color:var(--muted);
-  line-height:1.7;
-}
+        @keyframes pulse-badge {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.85; }
+        }
 
-.form-section{
-  background:linear-gradient(135deg,var(--green),var(--green-dark));
-  color:white;
-}
+        .hero h1 {
+            font-size: clamp(1.75rem, 5vw, 2.8rem);
+            font-weight: 800;
+            line-height: 1.15;
+            margin-bottom: 1.2rem;
+            letter-spacing: -0.5px;
+        }
 
-.form-card{
-  background:white;
-  color:#1a2e3b;
-  max-width:500px;
-  margin:40px auto 0;
-  padding:35px;
-  border-radius:24px;
-}
+        .hero h1 .highlight {
+            background: linear-gradient(120deg, #4ade80 0%, #22c55e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-.form-group{
-  margin-bottom:18px;
-}
+        .hero-subtext {
+            font-size: clamp(0.95rem, 2vw, 1.1rem);
+            line-height: 1.6;
+            margin-bottom: 1.8rem;
+            opacity: 0.95;
+            max-width: 650px;
+        }
 
-.form-group label{
-  display:block;
-  margin-bottom:8px;
-  font-weight:700;
-}
+        .hero-trust-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin: 2rem 0;
+            padding: 1.5rem 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
 
-.form-group input,
-.form-group select{
-  width:100%;
-  padding:14px;
-  border:2px solid #dce8e1;
-  border-radius:12px;
-  font-size:1rem;
-}
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
 
-.submit-btn{
-  width:100%;
-  border:none;
-  background:var(--green);
-  color:white;
-  padding:16px;
-  border-radius:50px;
-  font-size:1rem;
-  font-weight:800;
-  cursor:pointer;
-}
+        .trust-item::before {
+            content: '✓';
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 50%;
+            font-size: 0.75rem;
+            flex-shrink: 0;
+        }
 
-footer{
-  background:#071521;
-  color:rgba(255,255,255,.7);
-  text-align:center;
-  padding:50px 20px;
-}
+        .hero-form-box {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+            margin-top: 2.5rem;
+            max-width: 620px;
+        }
 
-.float-wa{
-  position:fixed;
-  right:24px;
-  bottom:24px;
-  width:64px;
-  height:64px;
-  border-radius:50%;
-  background:var(--wa);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  text-decoration:none;
-  color:white;
-  font-size:28px;
-  box-shadow:0 10px 30px rgba(37,211,102,.5);
-}
+        .form-header {
+            margin-bottom: 1.8rem;
+        }
 
-@media(max-width:768px){
+        .form-title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 0.4rem;
+            letter-spacing: -0.3px;
+        }
 
-  .hero{
-    padding:70px 20px;
-  }
+        .form-subtitle {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            font-weight: 500;
+        }
 
-  .section-title{
-    font-size:2rem;
-  }
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
 
-}
+        @media (max-width: 600px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+                gap: 0.8rem;
+            }
+        }
 
-</style>
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+
+        .form-label {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .form-input, .form-select {
+            padding: 0.85rem 1rem;
+            border: 1.5px solid var(--border);
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-family: inherit;
+            background: var(--white);
+            color: var(--text-dark);
+            transition: all 0.3s;
+        }
+
+        .form-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .form-input:focus, .form-select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(0, 61, 130, 0.08);
+            background: #fafbff;
+        }
+
+        .form-input.error, .form-select.error {
+            border-color: var(--danger);
+            background: #fff5f5;
+        }
+
+        .form-error {
+            display: none;
+            font-size: 0.75rem;
+            color: var(--danger);
+            font-weight: 600;
+            margin-top: -0.3rem;
+        }
+
+        .form-group.has-error .form-error {
+            display: block;
+        }
+
+        .form-full-width {
+            grid-column: 1 / -1;
+        }
+
+        .form-button {
+            grid-column: 1 / -1;
+            padding: 1.1rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: var(--white);
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 800;
+            cursor: pointer;
+            margin-top: 1rem;
+            box-shadow: 0 4px 12px rgba(0, 61, 130, 0.2);
+            transition: all 0.3s;
+        }
+
+        .form-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 61, 130, 0.3);
+        }
+
+        .form-button:active {
+            transform: translateY(0);
+        }
+
+        .form-note {
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 1rem;
+        }
+
+        .form-note strong {
+            color: var(--success);
+            font-weight: 700;
+        }
+
+        /* ===== HERO CTA BACKUP ===== */
+        .hero-cta-alt {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: var(--accent-light);
+            color: var(--primary);
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 800;
+            cursor: pointer;
+            white-space: nowrap;
+            box-shadow: 0 4px 12px rgba(74, 222, 128, 0.3);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .btn-primary:hover {
+            background: var(--success);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(74, 222, 128, 0.4);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid var(--white);
+            padding: 0.9rem 2rem;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn-secondary:hover {
+            background: var(--white);
+            color: var(--primary);
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 2rem 1.5rem;
+            }
+
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+
+            .hero-form-box {
+                padding: 1.8rem;
+                margin-top: 2rem;
+            }
+
+            .form-button {
+                font-size: 0.95rem;
+                padding: 1rem;
+            }
+
+            .hero-cta-alt {
+                flex-direction: column;
+            }
+
+            .btn-primary, .btn-secondary {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        /* ===== PROOF METRICS ===== */
+        .proof-strip {
+            background: var(--bg-lighter);
+            padding: 2.5rem 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .proof-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+
+        .proof-card {
+            text-align: center;
+        }
+
+        .proof-number {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1;
+            margin-bottom: 0.3rem;
+        }
+
+        .proof-label {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            font-weight: 600;
+            letter-spacing: 0.3px;
+        }
+
+        .proof-stars {
+            font-size: 1rem;
+            color: #fbbf24;
+            margin-bottom: 0.4rem;
+            letter-spacing: 1px;
+        }
+
+        @media (max-width: 600px) {
+            .proof-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1.5rem;
+            }
+
+            .proof-number {
+                font-size: 1.6rem;
+            }
+
+            .proof-label {
+                font-size: 0.75rem;
+            }
+        }
+
+        /* ===== VALUE PROPS ===== */
+        .value-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+        }
+
+        .value-card {
+            text-align: center;
+            animation: fadeInUp 0.6s ease-out forwards;
+            opacity: 0;
+        }
+
+        .value-card:nth-child(2) { animation-delay: 0.1s; }
+        .value-card:nth-child(3) { animation-delay: 0.2s; }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+        }
+
+        .value-icon {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .value-card h3 {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 0.8rem;
+            letter-spacing: -0.3px;
+        }
+
+        .value-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 768px) {
+            .value-section {
+                padding: 3rem 1.5rem;
+                gap: 2rem;
+            }
+        }
+
+        /* ===== PROCESS SECTION ===== */
+        .process-section {
+            background: var(--bg-light);
+            padding: 4rem 1.5rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: clamp(1.8rem, 4vw, 2.2rem);
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+            letter-spacing: -0.4px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 1rem;
+            color: var(--text-light);
+            margin-bottom: 3rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .process-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .process-card {
+            background: var(--white);
+            padding: 2.2rem 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .process-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+            border-color: var(--accent);
+        }
+
+        .process-step {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.4rem;
+            margin: 0 auto 1.2rem;
+            box-shadow: 0 4px 12px rgba(0, 61, 130, 0.2);
+        }
+
+        .process-card h3 {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 0.8rem;
+            letter-spacing: -0.2px;
+        }
+
+        .process-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* ===== SERVICE CARDS ===== */
+        .service-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 1.5rem;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .service-card {
+            background: var(--white);
+            border: 2px solid var(--border);
+            padding: 1.8rem 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .service-card:hover {
+            border-color: var(--accent);
+            box-shadow: 0 8px 24px rgba(16, 185, 129, 0.12);
+            transform: translateY(-3px);
+        }
+
+        .service-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .service-card h3 {
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 0.6rem;
+            letter-spacing: -0.2px;
+        }
+
+        .service-card p {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .service-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .service-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ===== TESTIMONIALS ===== */
+        .testimonial-section {
+            padding: 4rem 1.5rem;
+            background: var(--white);
+        }
+
+        .testimonial-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .testimonial-card {
+            background: var(--bg-lighter);
+            border-left: 4px solid var(--accent);
+            padding: 2rem;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .testimonial-card:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            transform: translateY(-3px);
+        }
+
+        .testimonial-stars {
+            font-size: 1rem;
+            color: #fbbf24;
+            margin-bottom: 1rem;
+            letter-spacing: 2px;
+        }
+
+        .testimonial-text {
+            font-size: 0.95rem;
+            color: var(--text-dark);
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .testimonial-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-weight: 800;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .testimonial-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        .testimonial-name {
+            font-weight: 700;
+            color: var(--text-dark);
+            font-size: 0.9rem;
+        }
+
+        .testimonial-role {
+            font-size: 0.75rem;
+            color: var(--text-light);
+        }
+
+        /* ===== FAQ SECTION ===== */
+        .faq-section {
+            background: var(--bg-lighter);
+            padding: 4rem 1.5rem;
+        }
+
+        .faq-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .faq-item {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            user-select: none;
+            transition: all 0.3s;
+            background: var(--white);
+        }
+
+        .faq-question:hover {
+            background: var(--bg-light);
+        }
+
+        .faq-question h4 {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            text-align: left;
+            margin: 0;
+            letter-spacing: -0.2px;
+        }
+
+        .faq-toggle {
+            font-size: 1.4rem;
+            color: var(--accent);
+            flex-shrink: 0;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-toggle {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
+        .faq-answer-content {
+            padding: 0 1.5rem 1.5rem;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+
+        /* ===== SECONDARY CTA ===== */
+        .secondary-cta {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: var(--white);
+            padding: 3.5rem 1.5rem;
+            text-align: center;
+        }
+
+        .secondary-cta h2 {
+            font-size: clamp(1.8rem, 4vw, 2.2rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            letter-spacing: -0.4px;
+        }
+
+        .secondary-cta p {
+            font-size: 1.05rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.95;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 600px) {
+            .secondary-cta p {
+                font-size: 0.95rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .cta-buttons .btn-primary,
+            .cta-buttons .btn-secondary {
+                width: 100%;
+            }
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: var(--primary-dark);
+            color: var(--white);
+            padding: 3rem 1.5rem 1.5rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            font-size: 0.85rem;
+            font-weight: 800;
+            margin-bottom: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--accent-light);
+        }
+
+        .footer-section p, .footer-section a {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.6rem;
+            line-height: 1.6;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-light);
+        }
+
+        .company-nap {
+            background: rgba(16, 185, 129, 0.15);
+            padding: 1rem;
+            border-radius: 6px;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            margin-top: 1rem;
+        }
+
+        .company-nap strong {
+            color: var(--accent-light);
+            font-weight: 800;
+        }
+
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            padding-top: 1.5rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .footer-badges {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 0.4rem 0.9rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        /* ===== WHATSAPP FLOAT ===== */
+        .whatsapp-button {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 60px;
+            height: 60px;
+            background: #25d366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            cursor: pointer;
+            box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
+            z-index: 95;
+            text-decoration: none;
+            animation: float-up 3s ease-in-out infinite;
+            border: none;
+            transition: all 0.3s;
+        }
+
+        @keyframes float-up {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .whatsapp-button:hover {
+            transform: scale(1.12);
+            box-shadow: 0 6px 24px rgba(37, 211, 102, 0.5);
+        }
+
+        @media (max-width: 480px) {
+            .whatsapp-button {
+                width: 55px;
+                height: 55px;
+                bottom: 1.5rem;
+                right: 1.5rem;
+                font-size: 1.5rem;
+            }
+        }
+
+        /* ===== STICKY CTA (Mobile) ===== */
+        .sticky-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--white);
+            border-top: 1px solid var(--border);
+            padding: 0.8rem;
+            z-index: 90;
+            box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.08);
+            gap: 0.8rem;
+        }
+
+        .sticky-cta.show {
+            display: flex;
+        }
+
+        .sticky-cta button {
+            flex: 1;
+            padding: 0.75rem 1rem;
+            border: none;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .sticky-cta .btn-call {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .sticky-cta .btn-whatsapp {
+            background: #25d366;
+            color: var(--white);
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 480px) {
+            html {
+                font-size: 15px;
+            }
+
+            .proof-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1.2rem;
+            }
+
+            .service-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ===== ACCESSIBILITY ===== */
+        :focus-visible {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+
+        button:focus-visible, a:focus-visible {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+    </style>
 </head>
-
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-<header>
+    <!-- HEADER -->
+    <header role="banner">
+        <div class="header-wrapper">
+            <a href="#" class="logo-link" aria-label="Freedom Path - Home">
+                <div class="logo-icon">FP</div>
+                <div class="logo-text">
+                    <div class="logo-name">Freedom Path</div>
+                    <div class="logo-tag">Financial Services</div>
+                </div>
+            </a>
+            <div class="header-actions">
+                <a href="tel:7999618394" class="header-phone">📞 7999618394</a>
+                <a href="https://wa.me/917999618394?text=Hi%20Freedom%20Path!%20I%20want%20to%20file%20my%20ITR." class="btn-cta-header" onclick="trackEvent('header_cta_click', 'engagement'); return true;" target="_blank" rel="noopener noreferrer">
+                    💬 Chat Now
+                </a>
+            </div>
+        </div>
+    </header>
 
-<div class="logo">
-  Freedom <span>Path</span>
-</div>
+    <!-- HERO SECTION -->
+    <section class="hero" role="region" aria-label="Hero section">
+        <div class="hero-container">
+            <div class="urgency-badge">⏰ ITR FILING SEASON 2025-26 IS LIVE</div>
+            
+            <h1>File Your <span class="highlight">Income Tax Return Online</span> with <span class="highlight">Expert CA Assistance</span></h1>
+            
+            <p class="hero-subtext">Fast, Secure & Hassle-Free ITR Filing for Salaried Employees, Business Owners, Freelancers & NRIs Across India</p>
 
-<a 
-href="https://wa.me/917999618394?text=Hi%20I%20want%20to%20file%20my%20ITR"
-target="_blank"
-class="header-btn">
-WhatsApp
-</a>
+            <div class="hero-trust-bar">
+                <div class="trust-item">100% Secure Filing</div>
+                <div class="trust-item">No Hidden Charges</div>
+                <div class="trust-item">Same-Day Processing</div>
+                <div class="trust-item">WhatsApp Support</div>
+            </div>
 
-</header>
+            <!-- HERO FORM -->
+            <div class="hero-form-box">
+                <div class="form-header">
+                    <h2 class="form-title">Get Free ITR Consultation</h2>
+                    <p class="form-subtitle">Fill this quick form - we'll contact you within 2 minutes</p>
+                </div>
 
-<section class="hero">
+                <form id="mainForm" onsubmit="handleFormSubmit(event)">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label" for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" class="form-input" placeholder="Your name" required autocomplete="name" aria-required="true">
+                            <div class="form-error">Please enter your name</div>
+                        </div>
 
-<h1>
-File Your <span>Income Tax Return</span><br>
-With Expert CA Support
-</h1>
+                        <div class="form-group">
+                            <label class="form-label" for="phoneNumber">WhatsApp Number *</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" class="form-input" placeholder="10 digit number" required autocomplete="tel" pattern="[0-9]{10}" inputmode="numeric" aria-required="true">
+                            <div class="form-error">Enter valid 10-digit number</div>
+                        </div>
 
-<p>
-Same-day ITR filing with WhatsApp support, lowest pricing and CA-assisted consultation for salaried employees, freelancers, business owners and NRIs.
-</p>
+                        <div class="form-group">
+                            <label class="form-label" for="emailAddress">Email Address *</label>
+                            <input type="email" id="emailAddress" name="emailAddress" class="form-input" placeholder="your@email.com" required autocomplete="email" aria-required="true">
+                            <div class="form-error">Enter valid email address</div>
+                        </div>
 
-<div class="hero-btns">
+                        <div class="form-group">
+                            <label class="form-label" for="profileType">Your Profile *</label>
+                            <select id="profileType" name="profileType" class="form-select" required autocomplete="off" aria-required="true">
+                                <option value="">-- Select Profile --</option>
+                                <option value="salaried">Salaried Employee</option>
+                                <option value="business">Business Owner</option>
+                                <option value="freelancer">Freelancer/Professional</option>
+                                <option value="nri">NRI</option>
+                                <option value="investor">Investor</option>
+                                <option value="startup">Startup Founder</option>
+                            </select>
+                            <div class="form-error">Please select your profile</div>
+                        </div>
 
-<a
-href="https://wa.me/917999618394?text=Hi%20I%20want%20to%20file%20my%20ITR"
-target="_blank"
-class="btn btn-wa">
-Chat on WhatsApp
-</a>
+                        <button type="submit" class="form-button">Get Free Consultation →</button>
+                    </div>
 
-<a href="#form" class="btn btn-outline">
-Get Free Consultation
-</a>
+                    <p class="form-note">
+                        <strong>✓ 100% Secure</strong> | <strong>✓ No Spam</strong> | <strong>✓ Expert will contact within 2 minutes</strong>
+                    </p>
+                </form>
+            </div>
 
-</div>
+            <div class="hero-cta-alt">
+                <a href="https://wa.me/917999618394?text=Hi%20Freedom%20Path!%20I%20want%20to%20file%20my%20ITR.%20Please%20help%20me%20get%20started." class="btn-secondary" onclick="trackEvent('hero_whatsapp_click', 'engagement'); return true;" target="_blank" rel="noopener noreferrer">
+                    💬 Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
 
-</section>
+    <!-- PROOF METRICS -->
+    <section class="proof-strip" role="region" aria-label="Key metrics">
+        <div class="proof-grid">
+            <div class="proof-card">
+                <div class="proof-number">9.19 Cr+</div>
+                <div class="proof-label">ITR Filings Completed</div>
+            </div>
+            <div class="proof-card">
+                <div class="proof-stars">★★★★★</div>
+                <div class="proof-number">4.8</div>
+                <div class="proof-label">Client Rating (500+ Reviews)</div>
+            </div>
+            <div class="proof-card">
+                <div class="proof-number">Same Day</div>
+                <div class="proof-label">Processing & Filing</div>
+            </div>
+            <div class="proof-card">
+                <div class="proof-number">24/7</div>
+                <div class="proof-label">WhatsApp Support</div>
+            </div>
+        </div>
+    </section>
 
-<section class="section">
+    <!-- VALUE PROPOSITION -->
+    <section class="value-section" role="region" aria-label="Why choose us">
+        <div class="value-card">
+            <div class="value-icon">⚡</div>
+            <h3>Lightning Fast</h3>
+            <p>File your complete ITR in minutes with our streamlined process. Same-day processing & filing ready.</p>
+        </div>
+        <div class="value-card">
+            <div class="value-icon">🔒</div>
+            <h3>100% Secure</h3>
+            <p>Military-grade encryption for all your financial data. Bank-level security with GST compliance.</p>
+        </div>
+        <div class="value-card">
+            <div class="value-icon">💰</div>
+            <h3>Lowest Prices</h3>
+            <p>No hidden charges. Transparent pricing. Get maximum refund assistance with our expert CAs.</p>
+        </div>
+    </section>
 
-<div class="container">
+    <!-- PROCESS SECTION -->
+    <section class="process-section" role="region" aria-label="How it works">
+        <h2 class="section-title">Get Your ITR Filed in 3 Simple Steps</h2>
+        <p class="section-subtitle">Simple, transparent process designed for maximum accuracy & speed</p>
 
-<h2 class="section-title">
-Why Choose <span>Freedom Path</span>
-</h2>
+        <div class="process-grid">
+            <div class="process-card">
+                <div class="process-step">1</div>
+                <h3>Upload Documents</h3>
+                <p>Share your documents securely on WhatsApp or via our form. Takes just 2 minutes.</p>
+            </div>
+            <div class="process-card">
+                <div class="process-step">2</div>
+                <h3>Expert Review & Filing</h3>
+                <p>Our CA experts review your details & file your return accurately within 24 hours.</p>
+            </div>
+            <div class="process-card">
+                <div class="process-step">3</div>
+                <h3>Confirmation & Support</h3>
+                <p>Get acknowledgement & ongoing support even after filing. We're always here to help.</p>
+            </div>
+        </div>
+    </section>
 
-<p class="section-desc">
-Professional CA-assisted filing with fast support, accurate tax filing and hassle-free process.
-</p>
+    <!-- SERVICE CARDS -->
+    <section class="service-section" role="region" aria-label="Our services">
+        <h2 class="section-title">Who Can File ITR With Us?</h2>
+        <p class="section-subtitle">Specialized solutions for every income type & profile</p>
 
-<div class="cards">
+        <div class="service-grid">
+            <div class="service-card">
+                <div class="service-icon">👔</div>
+                <h3>Salaried Employees</h3>
+                <p>Hassle-free ITR filing for all salary earners with Form 16</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💼</div>
+                <h3>Business Owners</h3>
+                <p>Complete ITR filing for proprietors, partnerships & companies</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎯</div>
+                <h3>Freelancers & Professionals</h3>
+                <p>Perfect for consultants, doctors, lawyers & independent professionals</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌍</div>
+                <h3>NRI</h3>
+                <p>Specialized ITR filing services for Non-Resident Indians</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📈</div>
+                <h3>Investors</h3>
+                <p>File ITR for capital gains, FDs, mutual funds, stocks & crypto</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎬</div>
+                <h3>Content Creators</h3>
+                <p>ITR filing for YouTubers, influencers & digital content creators</p>
+            </div>
+        </div>
+    </section>
 
-<div class="card">
-<h3>⚡ Same-Day Filing</h3>
-<p>Get your ITR filed quickly with expert assistance and faster processing.</p>
-</div>
+    <!-- TESTIMONIALS -->
+    <section class="testimonial-section" role="region" aria-label="Client testimonials">
+        <h2 class="section-title">Loved by Thousands Across India</h2>
+        <p class="section-subtitle">Real testimonials from satisfied clients</p>
 
-<div class="card">
-<h3>👨‍💼 CA Expert Support</h3>
-<p>Professional review by tax experts to maximize refund and avoid errors.</p>
-</div>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">Excellent service! My ITR was filed quickly and I got my refund without any hassle. Highly recommended!</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">RM</div>
+                    <div class="testimonial-meta">
+                        <div class="testimonial-name">Rahul Malhotra</div>
+                        <div class="testimonial-role">Salaried Employee, Mumbai</div>
+                    </div>
+                </div>
+            </div>
 
-<div class="card">
-<h3>💬 WhatsApp Assistance</h3>
-<p>Easy communication and document sharing directly through WhatsApp.</p>
-</div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">Very professional team. They guided me throughout the process and answered all my questions patiently.</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">SP</div>
+                    <div class="testimonial-meta">
+                        <div class="testimonial-name">Sneha Patel</div>
+                        <div class="testimonial-role">Freelancer, Bangalore</div>
+                    </div>
+                </div>
+            </div>
 
-</div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">Best ITR experience. Fast, transparent & great WhatsApp support. Thank you for making it so easy!</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">AJ</div>
+                    <div class="testimonial-meta">
+                        <div class="testimonial-name">Amit Joshi</div>
+                        <div class="testimonial-role">Business Owner, Jaipur</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</div>
+    <!-- FAQ SECTION -->
+    <section class="faq-section" role="region" aria-label="Frequently asked questions">
+        <h2 class="section-title">Common Questions Answered</h2>
+        <p class="section-subtitle">We've got answers to your most pressing concerns</p>
 
-</section>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)" role="button" tabindex="0" aria-expanded="false">
+                    <h4>Is online ITR filing safe?</h4>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">Absolutely! We use bank-level encryption (256-bit SSL) to protect all your data. Your information is never shared with anyone. We're GST registered and fully compliant with all tax laws.</div>
+                </div>
+            </div>
 
-<section class="section form-section" id="form">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)" role="button" tabindex="0" aria-expanded="false">
+                    <h4>How long does ITR filing take?</h4>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">Most filings are completed within 24-48 hours. We process on same-day basis for urgent filings. You'll receive your acknowledgement within 2 hours of submission.</div>
+                </div>
+            </div>
 
-<div class="container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)" role="button" tabindex="0" aria-expanded="false">
+                    <h4>Are there any hidden charges?</h4>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">No hidden charges, ever! Our pricing is completely transparent. All costs are discussed upfront. What you see is what you pay - no surprise fees.</div>
+                </div>
+            </div>
 
-<h2 class="section-title">
-Get Free <span>Consultation</span>
-</h2>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)" role="button" tabindex="0" aria-expanded="false">
+                    <h4>What documents do I need?</h4>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">For salaried employees: Form 16, Aadhaar & PAN. For business owners: Business income details, bank statements & investment proofs. We'll guide you through the exact documents needed based on your profile.</div>
+                </div>
+            </div>
 
-<div class="form-card">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)" role="button" tabindex="0" aria-expanded="false">
+                    <h4>Can you help me get maximum refund?</h4>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">Yes! Our CAs specialize in identifying all eligible deductions & investments. We help you claim every rupee you're entitled to, maximizing your refund legitimately.</div>
+                </div>
+            </div>
 
-<div class="form-group">
-<label>Full Name</label>
-<input type="text" id="name" placeholder="Enter your name">
-</div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)" role="button" tabindex="0" aria-expanded="false">
+                    <h4>What if I miss the filing deadline?</h4>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">Even after the deadline, you can still file (belated filing). You'll pay a small penalty but can still claim refunds. We can guide you through the process with minimal impact.</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="form-group">
-<label>WhatsApp Number</label>
-<input type="tel" id="phone" placeholder="9876543210">
-</div>
+    <!-- SECONDARY CTA -->
+    <section class="secondary-cta" role="region" aria-label="Final call to action">
+        <h2>Ready to File Your ITR?</h2>
+        <p>Join thousands of satisfied customers who filed their returns hassle-free with Freedom Path Financial Services</p>
+        
+        <div class="cta-buttons">
+            <a href="https://wa.me/917999618394?text=Hi%20Freedom%20Path!%20I'm%20ready%20to%20file%20my%20ITR.%20Please%20help%20me%20get%20started." class="btn-primary" onclick="trackEvent('secondary_cta_whatsapp', 'engagement'); return true;" target="_blank" rel="noopener noreferrer">
+                💬 Chat on WhatsApp
+            </a>
+            <a href="tel:7999618394" class="btn-secondary" onclick="trackEvent('secondary_cta_call', 'engagement');">
+                📞 Call Now: 7999618394
+            </a>
+        </div>
+    </section>
 
-<div class="form-group">
-<label>I am a...</label>
+    <!-- FOOTER -->
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Freedom Path</h4>
+                <p>Fast, Secure & Hassle-Free ITR Filing for All.</p>
+                <div class="company-nap">
+                    <p><strong>📍 Office Address</strong></p>
+                    <p>Shop no. 3, 2nd Floor, Koshalya Complex, Pulbogda, Govindpura, Bhopal, Madhya Pradesh 462023</p>
+                </div>
+            </div>
 
-<select id="profile">
-<option value="">Select</option>
-<option>Salaried Employee</option>
-<option>Freelancer</option>
-<option>Business Owner</option>
-<option>NRI</option>
-</select>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#" onclick="trackEvent('footer_home', 'navigation'); return false;">Home</a>
+                <a href="#" onclick="trackEvent('footer_services', 'navigation'); return false;">Services</a>
+                <a href="#" onclick="trackEvent('footer_process', 'navigation'); return false;">Process</a>
+                <a href="#" onclick="trackEvent('footer_contact', 'navigation'); return false;">Contact</a>
+            </div>
 
-</div>
+            <div class="footer-section">
+                <h4>Our Services</h4>
+                <a href="#" onclick="trackEvent('footer_itr', 'navigation'); return false;">ITR Filing</a>
+                <a href="#" onclick="trackEvent('footer_refund', 'navigation'); return false;">Refund Assistance</a>
+                <a href="#" onclick="trackEvent('footer_planning', 'navigation'); return false;">Tax Planning</a>
+                <a href="#" onclick="trackEvent('footer_business', 'navigation'); return false;">Business Registration</a>
+            </div>
 
-<button class="submit-btn" onclick="submitForm()">
-Submit & Continue
-</button>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <a href="tel:7999618394" onclick="trackEvent('footer_call', 'engagement');">📞 7999618394</a>
+                <a href="https://wa.me/917999618394" onclick="trackEvent('footer_whatsapp', 'engagement'); return true;" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+                <a href="mailto:abhiarolia@gmail.com" onclick="trackEvent('footer_email', 'engagement');">✉️ abhiarolia@gmail.com</a>
+            </div>
+        </div>
 
-</div>
+        <div class="footer-bottom">
+            <div class="footer-badges">
+                <span class="badge">✓ GST Registered</span>
+                <span class="badge">✓ CA Verified</span>
+                <span class="badge">✓ 100% Secure</span>
+                <span class="badge">✓ HTTPS Protected</span>
+            </div>
+            <p>&copy; 2026 Freedom Path Financial Services Pvt. Ltd. | All Rights Reserved</p>
+            <p style="margin-top: 0.8rem; font-size: 0.75rem;">
+                <a href="#" style="color: inherit; opacity: 0.8;" onclick="trackEvent('footer_privacy', 'navigation'); return false;">Privacy Policy</a> | 
+                <a href="#" style="color: inherit; opacity: 0.8;" onclick="trackEvent('footer_terms', 'navigation'); return false;">Terms & Conditions</a> | 
+                <a href="#" style="color: inherit; opacity: 0.8;" onclick="trackEvent('footer_disclaimer', 'navigation'); return false;">Disclaimer</a>
+            </p>
+        </div>
+    </footer>
 
-</div>
+    <!-- STICKY CTA (Mobile) -->
+    <div class="sticky-cta" id="stickyCTA">
+        <button class="btn-call" onclick="handleCall()" aria-label="Call us">📞 Call</button>
+        <button class="btn-whatsapp" onclick="handleWhatsApp()" aria-label="Chat on WhatsApp">💬 WhatsApp</button>
+    </div>
 
-</section>
+    <!-- WHATSAPP FLOAT BUTTON -->
+    <a href="https://wa.me/917999618394?text=Hi%20Freedom%20Path!%20I%20want%20to%20file%20my%20ITR." class="whatsapp-button" title="Chat on WhatsApp" onclick="trackEvent('float_whatsapp', 'engagement'); return true;" target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp chat">
+        💬
+    </a>
 
-<footer>
+    <script>
+        // ===== TRACKING FUNCTION =====
+        function trackEvent(eventName, category = 'engagement', value = 1) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', eventName, {
+                    'event_category': category,
+                    'event_label': eventName,
+                    'value': value
+                });
+            }
+            console.log(`✓ Event: ${eventName}`);
+        }
 
-<h2>Freedom Path Financial Services Pvt. Ltd.</h2>
+        // ===== FORM VALIDATION & SUBMIT =====
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const form = event.target;
+            
+            // Get form values
+            const fullName = document.getElementById('fullName').value.trim();
+            const phoneNumber = document.getElementById('phoneNumber').value.trim();
+            const emailAddress = document.getElementById('emailAddress').value.trim();
+            const profileType = document.getElementById('profileType').value;
 
-<p style="margin-top:12px;">
-GST Registered Financial Services Company
-</p>
+            // Validate form
+            if (!validateForm(form)) {
+                return;
+            }
 
-<p style="margin-top:18px;">
-📞 +91 79961 83941
-</p>
+            // Track conversion
+            trackEvent('form_submit', 'lead');
+            trackEvent('lead_profile_' + profileType, 'lead');
 
-</footer>
+            // Create WhatsApp message
+            const message = `Hi Freedom Path! 👋\n\nI'd like to file my ITR.\n\n*My Details:*\nName: ${fullName}\nPhone: ${phoneNumber}\nEmail: ${emailAddress}\nProfile: ${profileType.toUpperCase()}\n\nPlease contact me with the next steps.`;
 
-<a
-href="https://wa.me/917996183941?text=Hi%20I%20want%20to%20file%20my%20ITR"
-target="_blank"
-class="float-wa">
-💬
-</a>
+            // Open WhatsApp with pre-filled message
+            const whatsappUrl = `https://wa.me/917999618394?text=${encodeURIComponent(message)}`;
+            
+            // Show success & redirect
+            setTimeout(() => {
+                window.open(whatsappUrl, '_blank');
+                alert('Thank you! Our team will contact you shortly via WhatsApp.');
+                form.reset();
+            }, 300);
+        }
 
-<script>
+        // ===== FORM VALIDATION =====
+        function validateForm(form) {
+            let isValid = true;
+            const fields = form.querySelectorAll('[required]');
 
-function submitForm(){
+            fields.forEach(field => {
+                const group = field.closest('.form-group');
+                const isFieldValid = validateField(field);
+                
+                if (!isFieldValid) {
+                    group.classList.add('has-error');
+                    isValid = false;
+                } else {
+                    group.classList.remove('has-error');
+                }
+            });
 
-  const name = document.getElementById('name').value.trim();
-  const phone = document.getElementById('phone').value.trim();
-  const profile = document.getElementById('profile').value;
+            return isValid;
+        }
 
-  if(name === ''){
-    alert('Please enter your name');
-    return;
-  }
+        function validateField(field) {
+            const value = field.value.trim();
+            if (!value) return false;
+            
+            if (field.type === 'email') {
+                return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+            }
+            if (field.type === 'tel') {
+                return /^[0-9]{10}$/.test(value.replace(/\D/g, ''));
+            }
+            return true;
+        }
 
-  if(phone.length !== 10 || isNaN(phone)){
-    alert('Please enter valid 10 digit number');
-    return;
-  }
+        // ===== FAQ TOGGLE =====
+        function toggleFAQ(element) {
+            const faqItem = element.closest('.faq-item');
+            const isOpen = faqItem.classList.contains('active');
+            
+            // Close others
+            document.querySelectorAll('.faq-item.active').forEach(item => {
+                if (item !== faqItem) item.classList.remove('active');
+            });
+            
+            // Toggle current
+            faqItem.classList.toggle('active');
+            element.setAttribute('aria-expanded', !isOpen);
+            
+            // Track
+            trackEvent('faq_click', 'engagement');
+        }
 
-  if(profile === ''){
-    alert('Please select your profile');
-    return;
-  }
+        // ===== STICKY CTA LOGIC =====
+        function setupStickyCTA() {
+            const form = document.querySelector('.hero-form-box');
+            const stickyCTA = document.getElementById('stickyCTA');
+            
+            window.addEventListener('scroll', () => {
+                const rect = form.getBoundingClientRect();
+                const isFormVisible = rect.top >= 0 && rect.bottom <= window.innerHeight;
+                
+                if (!isFormVisible && window.innerWidth < 768) {
+                    stickyCTA.classList.add('show');
+                } else {
+                    stickyCTA.classList.remove('show');
+                }
+            });
+        }
 
-  const message = encodeURIComponent(
-`Hi Freedom Path!
+        // ===== CTA HANDLERS =====
+        function handleCall() {
+            trackEvent('sticky_call', 'engagement');
+            window.location.href = 'tel:7999618394';
+        }
 
-Name: ${name}
-Phone: ${phone}
-Profile: ${profile}
+        function handleWhatsApp() {
+            trackEvent('sticky_whatsapp', 'engagement');
+            window.open('https://wa.me/917999618394?text=Hi%20Freedom%20Path!%20I%20want%20to%20file%20my%20ITR', '_blank');
+        }
 
-I want to file my ITR.`
-);
+        // ===== SCROLL TRACKING =====
+        function setupScrollTracking() {
+            let scroll25 = false, scroll50 = false, scroll75 = false;
+            
+            window.addEventListener('scroll', () => {
+                const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+                
+                if (scrollPercent >= 25 && !scroll25) {
+                    scroll25 = true;
+                    trackEvent('scroll_25', 'engagement');
+                }
+                if (scrollPercent >= 50 && !scroll50) {
+                    scroll50 = true;
+                    trackEvent('scroll_50', 'engagement');
+                }
+                if (scrollPercent >= 75 && !scroll75) {
+                    scroll75 = true;
+                    trackEvent('scroll_75', 'engagement');
+                }
+            });
+        }
 
-  window.open(
-    `https://wa.me/917996183941?text=${message}`,
-    '_blank'
-  );
+        // ===== FORM FIELD TRACKING =====
+        function setupFormTracking() {
+            const form = document.getElementById('mainForm');
+            const fields = form.querySelectorAll('input, select');
+            
+            fields.forEach(field => {
+                field.addEventListener('focus', () => {
+                    trackEvent('form_focus_' + field.name, 'engagement');
+                });
+                
+                field.addEventListener('blur', () => {
+                    if (!field.value) {
+                        trackEvent('form_abandon_' + field.name, 'engagement');
+                    }
+                });
+            });
+        }
 
-}
+        // ===== INITIALIZATION =====
+        document.addEventListener('DOMContentLoaded', () => {
+            trackEvent('page_view', 'page');
+            setupStickyCTA();
+            setupScrollTracking();
+            setupFormTracking();
+            
+            // Remove error on input
+            document.querySelectorAll('.form-input, .form-select').forEach(field => {
+                field.addEventListener('input', () => {
+                    field.closest('.form-group').classList.remove('has-error');
+                });
+            });
 
-</script>
+            console.log('✓ Landing page ready - All systems active');
+        });
 
+        // ===== KEYBOARD NAVIGATION =====
+        document.querySelectorAll('.faq-question').forEach(element => {
+            element.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    element.click();
+                }
+            });
+        });
+    </script>
 </body>
 </html>
-
